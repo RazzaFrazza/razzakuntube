@@ -1,0 +1,38 @@
+
+
+Contents of Navbar
+
+
+
+
+
+
+
+Contents of Content
+
+<div class ="videoPlayer">
+
+Our video player goes here. 
+
+</div>
+
+<div class ="informationSection">
+
+The information about our video goes. 
+
+</div>
+
+<div class="description">
+
+
+The description of our video goes here. 
+
+</div>
+
+
+<div class="comments">
+
+
+The comments section gose here. 
+
+</div>

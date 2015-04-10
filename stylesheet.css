@@ -1,0 +1,271 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------------------------------------*/
+
+body {
+
+
+	background-color: #f8f8f8;
+}
+
+.navBar{
+		
+		position: fixed;
+		display: block;
+		width: 1287px;
+		height: 70px;
+		background-color: white;
+		z-index: 1;
+}
+
+
+.content {
+
+
+	display: block;
+	width: 857px;
+	height: 1996px;
+	background-color: #f8f8f8;
+	padding-top: 100px;
+
+}
+
+.playlist{
+
+	background-color: white;
+	display:block;
+	position: absolute;
+	top: 100px;
+	left: 857px;
+	width: 428px;
+	height: 1000px;
+
+}
+
+.header {
+
+	position: absolute;
+	top: 18px;
+	left: 5px;
+	font-family: arial;
+font-weight: bold;
+line-height: 17px;
+color: #333;
+}
+
+.footer {
+
+	position: absolute;
+	top: 2071px;
+	display: block;
+	background-color: green;
+	height: 140px;
+	width: 1287px;
+	padding-top: 100px;
+
+}
+
+
+.informationSection {
+
+position: absolute;
+top: 620px;
+left: 20px;
+height: 151px;
+width: 820px;
+background-color: white;
+
+}
+
+.title {
+
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	font-size: 28px;
+	font-family: arial;
+	color: #222;
+
+
+}
+
+.channel {
+
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 60px;
+	left: 10px;
+}
+
+.text {
+
+	position: absolute;
+	top:60px;
+	left: 70px;
+	font-family: arial;
+	font-weight: bold;
+
+}
+
+.description {
+
+position: absolute;
+top:800px;
+left: 20px;
+height: 128px;
+width: 820px;
+background-color:white;
+
+}
+
+.text2 {
+
+	font-family:arial;
+	font-weight: normal;
+	position: absolute;
+	top: 40px;
+	left: 5px;
+
+}
+.comments{
+
+	width:820px;
+	height: 1200px;
+
+	background-color:white;
+}
+
+.logo {
+
+		position:absolute;
+		top: 25px;
+		left: 15px;
+}
+
+.dropdown {
+
+		position: absolute;
+		top: 35px;
+		left: 120px;
+}
+
+.search  {
+
+	position: absolute;
+	top: 25px;
+	left: 250px;
+	width: 519px;
+	height: 22px;
+}
+
+.searchImg{
+
+	position: absolute;
+	top: 25px;
+	left: 745px;
+	width: 30px;
+	height: 30px;
+}
+
+.button {
+	position: absolute;
+	top: 25px;
+	left: 1100px;
+    vertical-align: middle;
+	font-family: arial;
+	opacity: .5;
+	font-weight: bold;
+	font-size: 12px;
+	height: 30px;
+	padding: 10px;
+	border: solid 1px transparent;
+	border-color: #d3d3d3;
+	background-color: #f8f8f8;
+	border-radius: 2px;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+
+.button2 {
+
+	background-color: red;
+	color: white;
+	border: 0px;
+	width: 93px;
+	height: 24px;
+	position: absolute;
+	top: 85px;
+	left: 70px;
+
+}
+
+.bell {
+
+
+	position: absolute;
+	top: 25px;
+	left: 1185px;
+	height: 28px;
+	width: 28px;
+}
+
+.you {
+
+	position: absolute;
+	top: 25px;
+	height: 28px;
+	left: 1235px;
+	border-radius: 20px;
+}
+
+.video {
+
+	position: absolute;
+	left: 20px;
+
+}
