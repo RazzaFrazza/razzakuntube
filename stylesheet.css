@@ -57,8 +57,8 @@ body {
 		
 		position: fixed;
 		display: block;
-		width: 1287px;
-		height: 70px;
+		width: 100%;
+		height: 10%;
 		background-color: white;
 		z-index: 1;
 }
@@ -158,8 +158,8 @@ background-color: white;
 position: absolute;
 top:800px;
 left: 20px;
-height: 128px;
-width: 820px;
+height: 14%;
+width: 64%;
 background-color:white;
 
 }
@@ -174,8 +174,8 @@ background-color:white;
 
 }
 .comments{
-
-	width:820px;
+    display: block;
+    width:820px;
 	height: 1200px;
 
 	background-color:white;
@@ -183,46 +183,51 @@ background-color:white;
 
 .logo {
 
-		position:absolute;
-		top: 25px;
-		left: 15px;
+		float:left;
+		padding-top: 0.4em;
+		padding-left: 2em;
 }
 
 .dropdown {
 
-		position: absolute;
-		top: 35px;
-		left: 120px;
+		float: left;
+		padding-left: 1em;
+		padding-top: 1em;
 }
 
 .search  {
 
-	position: absolute;
-	top: 25px;
-	left: 250px;
-	width: 519px;
-	height: 22px;
+	float: left;
+	width: 35%;
+	height: 2.5%;
+	margin-top: 1em;
+	margin-left: 5em;
+	padding-top: 0.5em;
+	padding-left: 2.5em;
+	padding-right: 2em;
+	z-index:1;
 }
 
 .searchImg{
 
-	position: absolute;
-	top: 25px;
-	left: 745px;
-	width: 30px;
-	height: 30px;
+	float: left;
+	position: relative;
+	right: 2%;
+	width: 2.5%;
+	height: 2.5%;
+	padding-top: 0.8em;
+	z-index: 1;
+
 }
 
 .button {
-	position: absolute;
-	top: 25px;
-	left: 1100px;
+	float: left;
     vertical-align: middle;
 	font-family: arial;
 	opacity: .5;
 	font-weight: bold;
 	font-size: 12px;
-	height: 30px;
+	height: 3%;
 	padding: 10px;
 	border: solid 1px transparent;
 	border-color: #d3d3d3;
@@ -236,8 +241,8 @@ background-color:white;
 	background-color: red;
 	color: white;
 	border: 0px;
-	width: 93px;
-	height: 24px;
+	width: 11%;
+	height: 2.8%;
 	position: absolute;
 	top: 85px;
 	left: 70px;
@@ -247,19 +252,15 @@ background-color:white;
 .bell {
 
 
-	position: absolute;
-	top: 25px;
-	left: 1185px;
-	height: 28px;
-	width: 28px;
+	float: left;
+	height: 30%;
+	width: 2%;
 }
 
 .you {
 
-	position: absolute;
-	top: 25px;
-	height: 28px;
-	left: 1235px;
+	float: left;
+	height: 30%;
 	border-radius: 20px;
 }
 
@@ -267,5 +268,6 @@ background-color:white;
 
 	position: absolute;
 	left: 20px;
-
+	height: 64%;
+	width: 55%;
 }
