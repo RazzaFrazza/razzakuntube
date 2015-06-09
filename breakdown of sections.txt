@@ -1,0 +1,45 @@
+Sections of the page:
+
+
+Top Navbar: This should include the logo, a searchbar an upload link, notifications link & a link to your google profile. 
+Positioning here is fixed. 
+
+
+
+
+
+Content: 
+
+This should include the following:
+
+
+Video Player: This element has relative, absolute or static positioning. This is what plays the video.
+
+The Information section: it should include the video Title, a profile picture, the name of the channel that uploaded the video and a subscribe button
+Add to, Share, More options are also applicable here. 
+
+The description: This part of the content describes what the video is about, when the video was published, the video license used. 
+
+The comments: This section allows user to comment on the content of the video as well as see other's comments. 
+
+
+
+
+Playlist: 
+
+This section shows what video is up next, gives users an autoplay oftion and shows a list of related videos. 
+
+
+
+Footer: This section includes the youtube logo, what language is being used with an option to change that. The county being used. A safety button, A history and a help link. 
+
+This section also includes links to about, press, copyright, creators, avertise, developers, +Youtube, Terms, Privacy, Policy & Safety, Send feedback, Try something new! 
+
+
+
+
+
+
+
+
+
